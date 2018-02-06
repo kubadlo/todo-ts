@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Page info -->
+    <title>Simple ToDo</title>
+    <meta name="description" content="Simple ToDo list app written in TypeScript">
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
+</head>
+<body>
+<header class="hero is-primary is-bold">
+    <div class="hero-body">
+        <div class="content has-text-centered">
+            <h1 class="title">
+                <span class="icon">
+                    <i class="fas fa-check-circle"></i>
+                </span>
+            </h1>
+            <h2 class="subtitle">Task list</h2>
+        </div>
+    </div>
+</header>
+<main class="section">
+    <div class="container">
+        <div class="columns is-centered">
+            <div class="column is-two-fifths">
+                <form id="new-todo-form" class="field has-addons">
+                    <div class="control is-expanded">
+                        <input type="text" id="new-todo-input" class="input" placeholder="New todo" required>
+                    </div>
+                    <div class="control">
+                        <button type="submit" id="new-todo-button" class="button is-primary">
+                            <span class="icon is-small">
+                                <i class="fas fa-plus" aria-hidden="true"></i>
+                            </span>
+                            <span>Add</span>
+                        </button>
+                    </div>
+                </form>
+                <hr/>
+                <div id="todo-list"></div>
+            </div>
+        </div>
+    </div>
+</main>
+<script type="application/javascript" src="build/todo.js"></script>
+</body>
+</html>

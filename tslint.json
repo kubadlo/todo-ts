@@ -3,7 +3,7 @@
   "extends": [
     "tslint:recommended"
   ],
-  "jsRules": {},
-  "rules": {},
-  "rulesDirectory": []
+  "rules": {
+    "interface-name": [true, "never-prefix"]
+  }
 }
