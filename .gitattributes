@@ -1,0 +1,53 @@
+# General
+* text=auto
+
+# Source files
+*.css           text
+*.html          text
+*.java          text
+*.js            text
+*.json          text
+*.properties    text
+*.sass          text
+*.scss          text
+*.sh            text eol=lf
+*.sql           text
+*.txt           text
+*.ts            text
+*.xml           text
+*.yaml          text
+*.yml           text
+
+# Configuration files
+.editorconfig   text
+.gitattributes  text
+.gitconfig      text
+.gitignore      text
+
+# Documents
+*.markdown      text
+*.md            text
+*.csv           text
+*.txt           text
+AUTHORS         text
+CHANGELOG       text
+CONTRIBUTING    text
+INSTALL         text
+LICENSE         text
+NEWS            text
+*README*        text
+
+# Fonts
+*.ttf           binary
+*.eot           binary
+*.otf           binary
+*.woff          binary
+*.woff2         binary
+
+# Images
+*.png           binary
+*.jpg           binary
+*.jpeg          binary
+*.gif           binary
+*.ico           binary
+*.svg           binary

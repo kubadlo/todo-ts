@@ -1,0 +1,10 @@
+### NodeJS ###
+node_modules/
+npm-debug.log.*
+
+### IntelliJ IDEA ###
+.idea
+/out/
+*.iws
+*.iml
+*.ipr

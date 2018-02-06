@@ -1,0 +1,19 @@
+# Top most editorconfig
+root = true
+
+# General configuration
+[*]
+indent_style = space
+indent_size = 4
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Configuration files
+[*.{json,yml}]
+indent_style = space
+indent_size = 2
+
+# Documentation
+[*.md]
+trim_trailing_whitespace = false
