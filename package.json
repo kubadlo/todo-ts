@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Jakub Leško <mail@jakublesko.com>",
   "private": true,
-  "license": "ISC",
+  "license": "MIT",
   "scripts": {
     "postinstall": "npm run build",
     "build": "tsc",

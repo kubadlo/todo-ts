@@ -32,7 +32,7 @@ class TodoList {
         todoHtmlItem.className = "columns is-mobile";
         todoHtmlItem.innerHTML = `
             <div class="column is-2">
-                <input type="checkbox" id="todo-check-${todoItem.id}" title="Check todo" value="${todoItem.checked}">
+                <input type="checkbox" id="todo-check-${todoItem.id}" title="Todo checkbox">
             </div>
             <div id="todo-title-${todoItem.id}" class="column ${todoItem.checked ? "has-text-grey-light" : ""}">
                 ${todoItem.title}
