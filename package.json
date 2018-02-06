@@ -1,0 +1,17 @@
+{
+  "name": "todo-ts",
+  "description": "Simple ToDo list written in TypeScript",
+  "version": "1.0.0",
+  "author": "Jakub Leško <mail@jakublesko.com>",
+  "private": true,
+  "license": "ISC",
+  "scripts": {
+    "postinstall": "npm run build",
+    "build": "tsc",
+    "lint": "tslint -c tslint.json 'src/**/*.ts'"
+  },
+  "devDependencies": {
+    "tslint": "^5.9.1",
+    "typescript": "^2.7.1"
+  }
+}

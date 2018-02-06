@@ -8,3 +8,6 @@ npm-debug.log.*
 *.iws
 *.iml
 *.ipr
+
+### Compiler Output ###
+build/
